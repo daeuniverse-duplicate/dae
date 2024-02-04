@@ -19,7 +19,7 @@ require (
 	github.com/okzk/sdnotify v0.0.0-20180710141335-d9becc38acbd
 	github.com/safchain/ethtool v0.3.0
 	github.com/sirupsen/logrus v1.9.3
-	github.com/spf13/cobra v1.7.0
+	github.com/spf13/cobra v1.8.0
 	github.com/v2rayA/ahocorasick-domain v0.0.0-20231231085011-99ceb8ef3208
 	github.com/vishvananda/netlink v1.1.0
 	github.com/vishvananda/netns v0.0.4
