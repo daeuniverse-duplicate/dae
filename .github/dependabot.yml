@@ -1,0 +1,32 @@
+version: 2
+
+updates:
+  - package-ecosystem: npm
+    directory: /
+    target-branch: "pr"
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /
+    target-branch: "pr"
+    schedule:
+      interval: daily
+
+  - package-ecosystem: github-actions
+    directory: /
+    target-branch: "pr"
+    schedule:
+      interval: daily
+
+  - package-ecosystem: gitsubmodule
+    directory: /
+    target-branch: "pr"
+    schedule:
+      interval: daily
+
+  - package-ecosystem: gomod
+    directory: /
+    target-branch: "pr"
+    schedule:
+      interval: daily
