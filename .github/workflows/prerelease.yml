@@ -157,7 +157,7 @@ jobs:
           ls -lh | grep ".zip"
 
       - name: Upload full source to GitHub release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ inputs.tag }}
           files: |
@@ -165,7 +165,7 @@ jobs:
           prerelease: true
 
       - name: Upload full source and artifacts to GitHub release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ inputs.tag }}
           files: |
