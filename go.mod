@@ -8,7 +8,7 @@ require (
 	github.com/adrg/xdg v0.4.0
 	github.com/antlr/antlr4/runtime/Go/antlr/v4 v4.0.0-20230305170008-8188dc5388df
 	github.com/bits-and-blooms/bloom/v3 v3.6.0
-	github.com/cilium/ebpf v0.12.3
+	github.com/cilium/ebpf v0.14.0
 	github.com/daeuniverse/dae-config-dist/go/dae_config v0.0.0-20230604120805-1c27619b592d
 	github.com/daeuniverse/outbound v0.0.0-20240101085641-7932e7df927d
 	github.com/daeuniverse/softwind v0.0.0-20231230065827-eed67f20d2c1
